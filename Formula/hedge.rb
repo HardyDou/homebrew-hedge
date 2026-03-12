@@ -7,7 +7,7 @@ class Hedge < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/HardyDou/hedge/releases/download/v1.9.1/hedge-cli-macos-arm64.tar.gz"
-      sha256 "af727b03f1b1863385edba59a6ab1ddc076850eb444e41f4b8c257d735dee202"
+      sha256 "81ad0c927c8d3e48a07091804a1597152ccd8556416de5ce5206764bfd5e37ea"
     else
       url "https://github.com/HardyDou/hedge/releases/download/v1.9.1/hedge-cli-macos-x64.tar.gz"
       sha256 "" # Will be filled after first release
